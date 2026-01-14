@@ -142,20 +142,18 @@ streamlit_run app.py
 
 1. **Visit** [Pneumonia Detection App](https://pneumonia-detection-using-densenet121-datalab.streamlit.app/)
 2. **Upload** a chest X-ray image:
-
-- Click "Browse files" or drag and drop
-- Supported formats: PNG, JPG, JPEG
-- Maximum file size: 200MB
-
+  - Click "Browse files" or drag and drop
+  - Supported formats: PNG, JPG, JPEG
+  - Maximum file size: 200MB
 3. **Wait** for the prediction (usually takes 2-3 seconds)
 4. **View Results:**
-- **Classification:** NORMAL or PNEUMONIA
-- **Confidence Score:** How certain the model is
-- **Class Probabilities:** Breakdown of predictions
+  - **Classification:** NORMAL or PNEUMONIA
+  - **Confidence Score:** How certain the model is
+  - **Class Probabilities:** Breakdown of predictions
 5. **Examine Grad-CAM:**
-- Red/Yellow areas = High attention (suspected abnormalities)
-- Green/Blue areas = Low attention
-- Helps understand what the model "sees"
+  - Red/Yellow areas = High attention (suspected abnormalities)
+  - Green/Blue areas = Low attention
+  - Helps understand what the model "sees"
 
 
 **Using Sample Images**
