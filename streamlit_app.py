@@ -39,7 +39,7 @@ st.markdown("### AI-Powered Chest X-Ray Analysis using DenseNet121")
 @st.cache_resource
 def load_model():
     try:
-        model = tf.keras.models.load_model('pneumonia_multiclass_densenet_model.keras')
+        model = tf.keras.models.load_model('model/pneumonia_multiclass_densenet_model.keras')
         return model
     except Exception as e:
         st.error(f"Error loading model: {e}")
@@ -253,4 +253,5 @@ def main():
         """)
 
 if __name__ == "__main__":
+
     main()
