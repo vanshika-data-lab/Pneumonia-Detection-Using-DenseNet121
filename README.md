@@ -130,6 +130,15 @@ pip install -r requirements.txt
 
 Download `pneumonia_multiclass_densenet_model.keras` from [model](model) and place it in the project root directory.
 
+
+**OR**
+
+
+Download the model file from the latest release:
+
+
+Visit [Releases](Releases) and download `pneumonia_multiclass_densenet_model.keras` and place it in the project root directory.
+
 5. **Run the application**
 ```
 streamlit_run app.py
@@ -157,6 +166,8 @@ streamlit_run app.py
 
 
 **Using Sample Images**
+
+
 Try the app with sample X-rays from the [sample_images/](sample_images/) folder:
 
 - [sample_images/normal/](sample_images/normal/) - Healthy chest X-rays
