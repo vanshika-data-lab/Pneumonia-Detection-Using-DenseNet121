@@ -32,20 +32,29 @@ This project implements a deep learning model to classify chest X-ray images as 
 Simply upload a chest X-ray image and get instant predictions with visual explanations!
 
 ## 📸 Screenshots
-**Main Interface**
-Show Image
+- **Main Interface**
+![Main Interface](screenshots/main_interface.png)
+
 _Upload your chest X-ray and get instant predictions_
-**Prediction Results**
-Show Image
-_Example: Normal chest X-ray classification_
-Show Image
-_Example: Pneumonia detection with confidence score_
-**Grad-CAM Visualization**
-Show Image
+
+- **Prediction Results**
+   - NORMAL 
+     ![Normal Prediction](screenshots/normal_prediction.png)
+     
+       _Example: Normal chest X-ray classification_
+   - PNEUMONIA 
+     ![Pneumonia Prediction](screenshots/pneumonia_prediction.png)
+     
+      _Example: Pneumonia detection with confidence score_
+- **Grad-CAM Visualization**
+![Grad-CAM Visualization](screenshots/gradcam_visualization.png)
+
 _Heatmap showing which regions the AI focuses on for diagnosis_
 
 ## 🎬 Demo Video
-Show Image
+
+![Demo video](screenshots/demo.gif)
+
 _Quick demo of the pneumonia detection process_
 
 ## 📊 Model Performance
